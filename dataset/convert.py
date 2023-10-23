@@ -33,4 +33,4 @@ with open('birds_united_states.csv', 'r', encoding="utf-8") as csv_file:
                 g.add((subject, predicate, object))
 
 # Sauvegarde le graphe RDF dans un fichier
-g.serialize('output_rdf/birds_united_states.rdf', format='xml')
+g.serialize('../output_rdf/birds_united_states.rdf', format='xml')
