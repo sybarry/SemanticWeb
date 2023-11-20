@@ -1,0 +1,16 @@
+PREFIX ns1: <http://www.w3.org/1999/xhtml/vocab#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ns1: <localhost:3030/>
+
+
+SELECT ?nomEspece (ROUND(AVG(xsd:float(?longitude))) as ?lonGroupe) (AVG(xsd:float(?latitude)) as ?latitudeMoyenne) (AVG(?frequence) as ?frequenceMoyenne)
+WHERE {
+    ?s ns1:lng ?longitude ;
+       ns1:lat ?latitude ;
+       ns1:en ?nomEspece ;
+       ns1:file ?fichier.
+    ?fichier ns1:average_frequency ?frequence . FILTER (?longitude && ?latitude)
+}
+GROUP BY ?nomEspece
