@@ -30,7 +30,7 @@ def download_mp3(url, file_name):
 line = 0
 
 # Ligne maximale à atteindre, soit final_line/saut_line lignes au total
-final_line = 1000
+final_line = 1500
 
 # On sautera de saut_line à chaque fois
 saut_line = 5
