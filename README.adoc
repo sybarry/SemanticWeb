@@ -1,0 +1,31 @@
+= Projet Web sémantique
+
+== Table de matière
+- Membre
+- Description
+- Mise en place du server Fuseki
+- Fichiers Turtle
+- Requêtes Non Liées
+- Requêtes Liées
+- Liens Pratiques
+
+== Membre
+|===
+| NOM  | PRENOM
+
+| BARRY | Saikou yaya
+| AUGEREAU | Bastien
+| MAALOV | Khoussein
+|===
+
+== Description
+
+== Mise en place du server Fuseki
+
+== Fichiers Turtle
+
+==  Requêtes Non Liées
+
+== Requêtes Liées
+
+== Liens Pratiques
