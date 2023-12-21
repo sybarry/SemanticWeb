@@ -1,6 +1,31 @@
-PREFIX ns1: <http://www.w3.org/1999/xhtml/vocab#>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX ns1: <localhost:3030/>
+PREFIX dbp:	<http://dbpedia.org/property/>
+PREFIX ns1: <http://dbpedia.org/ontology/>
+PREFIX ex: <http://example.org/>
 
+
+
+SELECT ?name ?type
+WHERE {
+  {
+    SERVICE <http://localhost:3030/turtle_data/query> {
+      SELECT ?name ?type {
+        ?dinosaur ex:commonProperty ?commonValue.
+        ?dinosaur ns1:name ?name.
+        ?dinosaur ns1:type ?type.
+      }
+    }
+  }
+  UNION
+  {
+    SERVICE <http://localhost:3030/birds_united_states/query> {
+      SELECT ?name ?type {
+        ?bird ex:commonProperty ?commonValue.
+        ?bird ns1:name ?name.
+        ?bird ns1:type ?type.
+      }
+    }
+  }
+}

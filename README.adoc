@@ -34,7 +34,7 @@
 == Requêtes Liées
 |===
 | Requêtes  | Description
-| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql_link/exemple1.sparql[sparql1]** | mis a jour
+| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql_link/exemple1.sparql[sparql1]** | #Requêtes liée avec le groupe 6 Sur les noms des oiseaux et des dinosaures
 | **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql_link/exemple1.sparql[sparql2]** | mis a jour
 |===
 
