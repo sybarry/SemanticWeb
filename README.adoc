@@ -26,13 +26,16 @@
 | **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql/exemple2.sparql[sparql2]** | agrège les données géographiques et fréquentielles
 | **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql/exemple3.sparql[sparql3]** | agrège les données géographiques et fréquentielles
 | **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql/exemple4.sparql[sparql4]** | agrège les données fréquentielles, en regroupant les fréquences dans des intervalles de 100 unités
+| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql/exemple5.sparql[sparql5]** | Récupérez toutes les espèces d’oiseaux distinctes et leurs fréquences moyennes
+| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql/exemple6.sparql[sparql6]** | Récupérez les espèces d’oiseaux et le nombre d’occurrences par ordre décroissant.
+| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql/exemple7.sparql[sparql7]** | Récupérez les espèces d’oiseaux et leurs enregistrements dans un endroit précis
 |===
 
 == Requêtes Liées
 |===
 | Requêtes  | Description
-| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql_link[sparql1]** | mis a jour
-| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql_link[sparql2]** | mis a jour
+| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql_link/exemple1.sparql[sparql1]** | mis a jour
+| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql_link/exemple1.sparql[sparql2]** | mis a jour
 |===
 
 == Liens Pratiques
