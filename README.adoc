@@ -3,8 +3,6 @@
 == Table de matière
 - <<Membre>>
 - <<Description>>
-- <<Mise en place du server Fuseki>>
-- <<Fichiers Turtle>>
 - <<Requêtes Non Liées>>
 - <<Requêtes Liées>>
 - <<Liens Pratiques>>
@@ -19,12 +17,16 @@
 |===
 
 == Description
-
-== Mise en place du server Fuseki
-
-== Fichiers Turtle
+**link:https://www.kaggle.com/datasets/gpreda/bird-songs-recordings-from-united-states/[Description]** +
 
 ==  Requêtes Non Liées
+|===
+| Requêtes  | Description
+| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql/exemple1.sparql[sparql1]** | sélectionne les sujets (?sujet), les latitudes (?latitude), et les altitudes (?altitude)  qui ont une latitude supérieure à 50 et une altitude supérieure à 90
+| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql/exemple2.sparql[sparql2]** | agrège les données géographiques et fréquentielles
+| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql/exemple3.sparql[sparql3]** | agrège les données géographiques et fréquentielles
+| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql/exemple4.sparql[sparql1]** | agrège les données fréquentielles, en regroupant les fréquences dans des intervalles de 100 unités
+|==
 **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql[Requêtes]** +
 
 == Requêtes Liées
