@@ -25,7 +25,10 @@
 == Fichiers Turtle
 
 ==  Requêtes Non Liées
+**link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql[Requêtes]** +
 
 == Requêtes Liées
+**link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql_link[Requêtes link]** +
+
 
 == Liens Pratiques
