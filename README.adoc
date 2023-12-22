@@ -7,7 +7,7 @@
 - <<Requêtes Liées>>
 - <<Propriétes>>
 - <<Propriétés exemple>>
-- <<Liens Pratiques>>
+- <<Liens Diaporama>>
 
 == Membre
 |===
@@ -56,5 +56,5 @@ Notre dataset est sur les sons des oiseaux qui ont été enregistré aux Etats U
     void:sparqlEndpoint <http://example.org/sparql-endpoint/birds_united_states> ;
     dcterms:relation <http://linkeddata.example/dataset/ornithology> .
 
-== Liens Pratiques
+== Liens Diaporama
 **link:https://www.canva.com/design/DAFwzZbqcok/UneYyIrTzc8uxlaZmpppdA/edit[Diaporama]** +
