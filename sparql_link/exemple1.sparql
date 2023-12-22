@@ -9,23 +9,15 @@ PREFIX ex: <http://example.org/>
 
 SELECT ?name ?type
 WHERE {
-  {
     SERVICE <http://localhost:3030/turtle_data/query> {
-      SELECT ?name ?type {
         ?dinosaur ex:commonProperty ?commonValue.
         ?dinosaur ns1:name ?name.
         ?dinosaur ns1:type ?type.
-      }
     }
-  }
-  UNION
-  {
+
     SERVICE <http://localhost:3030/birds_united_states/query> {
-      SELECT ?name ?type {
         ?bird ex:commonProperty ?commonValue.
         ?bird ns1:name ?name.
         ?bird ns1:type ?type.
-      }
     }
-  }
 }
