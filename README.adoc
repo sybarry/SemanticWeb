@@ -39,7 +39,12 @@ Notre dataset est sur les sons des oiseaux qui ont été enregistré aux Etats U
 |===
 | Requêtes  | Description
 | **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql_link/exemple1.sparql[sparql1]** | Requête liée avec le groupe 6, recupere les noms et les types des oiseaux et des dinosaures.
-| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql_link/exemple1.sparql[sparql2]** | En cours
+|===
+
+== Linked Open Data
+|===
+| Requêtes  | Description
+| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/blob/main/open_data/city_of_birds.sparql[sparql linked data]** | Requête qui récupère des sujets avec des coordonnées géographiques spécifiées par les propriétés personnalisées ns1:lat et ns1:alt, limités à ceux ayant une latitude entre 50 et 80. De plus, elle utilise un service externe de DBpedia pour obtenir des informations sur les villes avec des coordonnées géographiques comprises entre 50 et 80.
 |===
 
 == Propriétes
