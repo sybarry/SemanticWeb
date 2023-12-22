@@ -5,6 +5,8 @@
 - <<Description>>
 - <<Requêtes Non Liées>>
 - <<Requêtes Liées>>
+- <<Propriétes>>
+- <<Propriétés exemple>>
 - <<Liens Pratiques>>
 
 == Membre
@@ -35,8 +37,22 @@
 |===
 | Requêtes  | Description
 | **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql_link/exemple1.sparql[sparql1]** | Requête liée avec le groupe 6, recupere les noms et les types des oiseaux et des dinosaures.
-| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql_link/exemple1.sparql[sparql2]** | En cours
+| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql_link/exemple1.sparql[sparql2]** | mis a jour
 |===
 
+== Propriétes
+|===
+| Propriétes | Description
+| void:sparqlEndpoint | Cette propriété peut être utilisée pour indiquer l'URI du point d'accès SPARQL pour notre dataset.
+| void:subset | Avec les sous-ensembles de notre dataset, nous pouvez les lier aux autres datasets du Linked Data Cloud
+| owl:sameAs | Cette propriété peut être utilisée pour indiquer que notre dataset est équivalent à un autre dataset dans le Linked Data Cloud.
+| dcterms:relation | Utiliser pour indiquer la relation avec d'autres datasets
+|===
+
+== Propriétés exemple
+ <http://example.org/dataset/birds_united_states> a void:Dataset ;
+    void:sparqlEndpoint <http://example.org/sparql-endpoint/birds_united_states> ;
+    dcterms:relation <http://linkeddata.example/dataset/ornithology> .
+
 == Liens Pratiques
-**link:https://www.canva.com/design/DAFwzZbqcok/UneYyIrTzc8uxlaZmpppdA/edit[Diaporama]** +
+**link:https://www.canva.com/design/DAFwzZbqcok/UneYyIrTzc8uxlaZmpppdA/[Diaporama]** +
