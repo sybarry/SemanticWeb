@@ -5,10 +5,10 @@
 - <<Description>>
 - <<Requêtes Non Liées>>
 - <<Requêtes Liées>>
+- <<Linked Open Data>>
 - <<Propriétes>>
 - <<Propriétés exemple>>
 - <<Liens Diaporama>>
-- <<Linked Open Data>>
 
 == Membre
 |===
