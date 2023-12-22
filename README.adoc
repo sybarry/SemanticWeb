@@ -23,18 +23,18 @@
 |===
 | Requêtes  | Description
 | **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql/exemple1.sparql[sparql1]** | Extrait les sujets, latitudes et altitudes des données où la latitude est supérieure à 50 et l'altitude est supérieure à 90.
-| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql/exemple2.sparql[sparql2]** | agrège les données géographiques et fréquentielles
-| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql/exemple3.sparql[sparql3]** | agrège les données géographiques et fréquentielles
-| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql/exemple4.sparql[sparql4]** | agrège les données fréquentielles, en regroupant les fréquences dans des intervalles de 100 unités
-| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql/exemple5.sparql[sparql5]** | Récupérez toutes les espèces d’oiseaux distinctes et leurs fréquences moyennes
-| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql/exemple6.sparql[sparql6]** | Récupérez les espèces d’oiseaux et le nombre d’occurrences par ordre décroissant.
-| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql/exemple7.sparql[sparql7]** | Récupérez les espèces d’oiseaux et leurs enregistrements dans un endroit précis
+| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql/exemple2.sparql[sparql2]** | Extrait le nom de l'espèce, la longitude moyenne, la latitude moyenne et la fréquence moyenne des données associées à des fichiers sonores, regroupées par espèce. Les résultats sont obtenus en calculant la moyenne des valeurs de longitude, latitude et fréquence pour chaque espèce.
+| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql/exemple3.sparql[sparql3]** | Récupère le nom de l'espèce, la fréquence moyenne, la latitude moyenne, la longitude moyenne et l'altitude moyenne. Les résultats sont groupés par espèce et triés en fonction de la fréquence moyenne des fichiers sonores par ordre décroissant.
+| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql/exemple4.sparql[sparql4]** | Récupère la fréquence arrondie par tranche de 100, l'espèce la plus représentée dans chaque tranche, et le nombre d'occurrences pour chaque tranche de fréquence. Les résultats sont groupés par la fréquence arrondie et triés par ordre croissant de fréquence.
+| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql/exemple5.sparql[sparql5]** | Récupére toutes les espèces d’oiseaux distinctes et leurs fréquences moyennes
+| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql/exemple6.sparql[sparql6]** | Récupére les espèces d’oiseaux et le nombre d’occurrences par ordre décroissant.
+| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql/exemple7.sparql[sparql7]** | Récupére les espèces d’oiseaux et leurs enregistrements dans un endroit précis
 |===
 
 == Requêtes Liées
 |===
 | Requêtes  | Description
-| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql_link/exemple1.sparql[sparql1]** | #Requêtes liée avec le groupe 6 Sur les noms des oiseaux et des dinosaures
+| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql_link/exemple1.sparql[sparql1]** | Requête liée avec le groupe 6, recupere les noms et les types des oiseaux et des dinosaures.
 | **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql_link/exemple1.sparql[sparql2]** | mis a jour
 |===
 
