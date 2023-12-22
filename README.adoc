@@ -8,6 +8,7 @@
 - <<Propriétes>>
 - <<Propriétés exemple>>
 - <<Liens Diaporama>>
+- <<Linked Open Data>>
 
 == Membre
 |===
