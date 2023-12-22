@@ -35,8 +35,8 @@
 |===
 | Requêtes  | Description
 | **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql_link/exemple1.sparql[sparql1]** | Requête liée avec le groupe 6, recupere les noms et les types des oiseaux et des dinosaures.
-| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql_link/exemple1.sparql[sparql2]** | mis a jour
+| **link:https://gitlab.univ-nantes.fr/E238462Y/semantic-project/-/tree/main/sparql_link/exemple1.sparql[sparql2]** | En cours
 |===
 
 == Liens Pratiques
-**link:https://www.canva.com/design/DAFwzZbqcok/UneYyIrTzc8uxlaZmpppdA/[Diaporama]** +
+**link:https://www.canva.com/design/DAFwzZbqcok/UneYyIrTzc8uxlaZmpppdA/edit[Diaporama]** +
