@@ -1,0 +1,23 @@
+PREFIX xsd httpwww.w3.org2001XMLSchema#
+PREFIX dbo httpdbpedia.orgontology
+PREFIX geo httpwww.w3.org200301geowgs84_pos#
+PREFIX ns1 localhost3030
+
+SELECT 
+WHERE {
+
+    sujet ns1lat latitude .
+    sujet ns1alt altitude .
+  FILTER (xsdfloat(latitude)  50 && xsdfloat(latitude)  80).
+
+
+  # Service externe pour les données de ville
+  SERVICE httpdbpedia.orgsparql {
+    city a dboCity ;
+          geolat CityLat;
+    	  geolong CityLong
+    . FILTER (CityLat  50 && CityLat  80)
+
+  }
+} 
+LIMIT 10
