@@ -1,9 +1,7 @@
 import csv
 from rdflib import Graph, Namespace, Literal, URIRef
 from rdflib.namespace import RDF
-import urllib.parse
 import requests
-import librosa
 from pydub import AudioSegment
 import numpy as np
 from pathlib import Path
@@ -42,7 +40,7 @@ g = Graph()
 my_namespace = Namespace("localhost:3030/")
 
 # Ouvrir le fichier CSV
-with open('birds_united_states.csv', 'r', encoding="utf-8") as csv_file:
+with open('dataset/birds_united_states.csv', 'r', encoding="utf-8") as csv_file:
     csv_reader = csv.DictReader(csv_file)
 
     for row in csv_reader:
