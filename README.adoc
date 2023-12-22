@@ -19,7 +19,7 @@
 |===
 
 == Description
-Notre Dataset :
+Notre dataset est sur les sons des oiseaux qui ont été enregistré aux Etats Unis, il vient de Kaggle. Ce dernier a été normalisé avec l'outil TARQL.
 **link:https://www.kaggle.com/datasets/gpreda/bird-songs-recordings-from-united-states/[Dataset]** +
 
 ==  Requêtes Non Liées
